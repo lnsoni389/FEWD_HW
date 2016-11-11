@@ -1,0 +1,20 @@
+Use HTML5 structural elements (nav, header, footer)
+ - Good! Footer contents in footer tag.
+Use a CSS Reset file in addition to your style.css file to style the page
+ - I see a reset.css included with your solution, but this needs to be included with a <link> tag in your html. CSS Reset/Normalize files should be linked before your custom styleseheets.
+Use IDs and Classes to to select and style elements on the page
+ - Good use of classes to identify and style elements. Try to use IDs for unique elements.
+Follow naming conventions, maintain consistency across .html and .css files and use best practices for naming IDs and Classes
+ - Good!
+Indent nested elements to increase your code's readability
+ - Good!
+Use CSS display and float to get the layout correct
+ - Good!
+
+ Additional Comments:
+
+- Good job! Nice attention to detail regarding spacing, colors, and fonts.
+
+- Try to avoid generic class names like section-1, section-2, etc. and find a more descriptive way to refer to your elements. This will help you and other developers keep the rules clear later. Also, by using the numbering scheme you're setting yourself up for a confusing naming problem if the designers come back and say they want to add a section between section-1 and section-2!
+
+- Be carful using background-size: 100% 100% when your element has different proportions than your background image. In this case your header image is a little squished. Better to let the image be cropped a little than to stretch/squish it.

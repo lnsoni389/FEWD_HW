@@ -1,0 +1,20 @@
+Create an array with the following values: "NYC", "SF", "LA", "ATX", "SYD"; use the array to add values to the <select> menu by using a for loop in JavaScript (don't update the HTML to do this!)
+ - Good!
+When the user changes the input of the drop-down, update the background image based on what they selected
+ - Good!
+Use $.append() in your iteration on the drop-down menu
+ - Good!
+Use the $.attr() function to update html classes
+ - You can use .attr("class") to set a class, but .addClass() & .removeClass() work just as well
+Get the value of user input using $.val()
+ - Good!
+Use the $.change event handler to capture user actions
+ - Good!
+Use if/else if/else conditionals to control the flow of your application
+ - Good!
+Display your pseudocode as Javascript comments
+ - Good!
+
+Additional Comments:
+
+- Great job! All the functionality is there and your javascript is clean and well indented.

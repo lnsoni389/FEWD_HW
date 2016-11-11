@@ -1,0 +1,32 @@
+Call $.val() on inputs to get the string value of your user's input
+  - Good!
+Store user input in var city
+  - Good!
+Use $.on("submit") or $.click to figure out when the user clicks the "submit" button
+  - Good!
+Create if / else if / else conditionals to control the flow of your application
+  - Good!
+Prevent a form submission using the event.preventDefault() function
+  - Good!
+Use the $.ready() handler to delay your code from executing until all DOM assets have been loaded
+  - Good!
+Use the || operator in your conditionals to allow for multiple string values to execute if/else if statement code
+  - Good!
+
+
+
+Additional Comments:
+
+This looks great! All your JavaScript is working! And I like that you added an else to the conditional.
+
+So the only thing in your code is that you're adding the classes correctly, but they start overriding each other. So for example, if you type "New York", it works. Then you type "Sydney", and it works. But if you then type "New York" again, it doesn't work. Why? The issue is that body now has 2 classes: nyc and sydney. And if you look in your CSS, .sydney is below .nyc, so .sydney overrides .nyc. But this is easy to fix. For all the addClass lines like:
+  $('body').removeClass('starter-image').addClass('nyc');
+
+Just add to the removeClass section that you already have.
+  $('body').removeClass('starter-image sf la austin sydney').addClass('nyc');
+
+Problem solved!
+
+Overall, nice job! Let me know if you have any questions.
+
+Also, your final project idea looks good. I think that a portfolio site will be a nice project to work on.

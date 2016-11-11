@@ -1,0 +1,12 @@
+Use at least three different types of HTML5 form elements
+ - Good!
+Style forms lightly using CSS
+ - Good!
+
+Additional Comments:
+
+ - Great job! Nice variety of input fields and consistent styling.
+
+ - Nice use of placeholder text and 'required' attribute to get automatic validation.
+
+ - Don't forget you can use the 'for' attribute on labels to associate labels and input fields. E.g. <label for="txtName">Name:</label><input type="text" id="txtName">
